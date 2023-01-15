@@ -1,0 +1,226 @@
+*{
+    margin: 0px;
+    font-family: 'Inconsolata', monospace;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.header{
+    background-color: rgb(250, 114, 3);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 22px;
+    text-align: center;
+}
+
+
+.container{
+    background-color: rgb(39, 39, 39);
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.titulo_container{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 30px;
+}
+
+
+.fondo{
+    background-color: rgb(29, 28, 28);
+    border-radius: 16px;  
+    transition: transform .2s; /* Animation */
+}
+.fondo:hover{
+    transform: scale(0.9);
+}
+
+
+.fondo_uno{
+    background-color: rgb(29, 28, 28);
+    border-radius: 16px;
+    transition: transform .2s; /* Animation */
+    
+}
+.fondo_uno:hover{
+    transform: scale(0.9);
+}
+.fondo_dos{
+    background-color: rgb(29, 28, 28);
+    border-radius: 16px;
+    transition: transform .2s; /* Animation */
+   
+}
+.fondo_dos:hover{
+    transform: scale(0.9);
+}
+
+
+
+.titulo_img{
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: black; 
+    background-color: rgb(238, 59, 36);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.titulo_im{
+    font-size: 24px;
+    color: black; 
+    background-color: rgb(235, 21, 21);
+    color: white;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+.titulo_imr{
+    font-size: 24px;
+    color: black; 
+    background-color: rgb(16, 141, 54);
+    color: white;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+.titulo_imh{
+    font-size: 24px;
+    color: black; 
+    background-color: rgb(16, 56, 141);
+    color: white;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 10px;   
+}
+
+.titulo_img-uno{
+    margin-bottom: 10px;
+    font-size: 24px;
+    background-color: rgb(16, 150, 34);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+
+}
+.titulo_img-dos{
+    margin-bottom: 10px;
+    font-size: 24px;
+    background-color: rgb(16, 150, 34);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+
+}
+.titulo_img-tres{
+    margin-bottom: 10px;
+    font-size: 24px;
+    background-color: rgb(16, 150, 34);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+
+}
+.titulo_img-cuatro{
+    margin-bottom: 10px;
+    font-size: 24px;
+    background-color: rgb(16, 150, 34);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+
+}
+.titulo_img-cinco{
+    margin-bottom: 10px;
+    font-size: 24px;
+    background-color: rgb(16, 150, 34);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+
+}
+.titulo_img-seis{
+    margin-bottom: 10px;
+    font-size: 24px;
+    background-color: rgb(16, 150, 34);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+
+}
+
+.titulo_img-siete{
+    margin-bottom: 10px;
+    font-size: 24px;
+    background-color: rgb(21, 139, 235);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+
+}
+.titulo_img-ocho{
+    margin-bottom: 10px;
+    font-size: 24px;
+    background-color: rgb(21, 139, 235);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+
+}
+.titulo_img-nueve{
+    margin-bottom: 10px;
+    font-size: 24px;
+    background-color: rgb(21, 139, 235);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+
+}
+.titulo_img-diez{
+    margin-bottom: 10px;
+    font-size: 24px;
+    background-color: rgb(21, 139, 235);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+}
+.titulo_img-once{
+    margin-bottom: 10px;
+    font-size: 24px;
+    background-color: rgb(21, 139, 235);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+}
+.titulo_img-doce{
+    margin-bottom: 10px;
+    font-size: 24px;
+    background-color: rgb(21, 139, 235);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+}
+
+
+.footer{
+    background-color: rgb(250, 114, 3);
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}

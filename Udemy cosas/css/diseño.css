@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    font-family: 'Inconsolata', monospace;
+}
+p{
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgb(230, 108, 9); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(0, 0, 0); 
+  }
+  
+
+.header{
+    background-color: rgb(250, 114, 3);
+    color: white;
+    padding: 20px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.principal{
+    background-color: rgb(51, 50, 50);
+    color: rgb(255, 255, 255);
+}
+.titulo_principal{
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+}
+.texto_principal {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.img_principal{
+   border-radius: 16px;
+   gap: 10px;
+   margin-left: 50px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   transition: transform .2s; /* Animation */
+}
+.img_principal:hover{
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.container{
+    background-color: rgb(39, 39, 39);
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.titulo_container{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(8, 8, 8);
+    padding: 20px;
+}
+
+
+.fondo{
+    background-color: rgb(204, 203, 203);
+    padding: 20px;
+    border-radius: 18px;
+}
+.fondo:hover{
+    background-color: rgb(4, 152, 250);
+}
+.fondo_uno{
+    background-color: rgb(204, 203, 203);
+    padding: 20px;
+    border-radius: 18px;
+}
+.fondo_uno:hover{
+    background-color: rgb(4, 152, 250);
+}
+.fondo_dos{
+    background-color: rgb(204, 203, 203);
+    padding: 20px;
+    border-radius: 18px;
+}
+.fondo_dos:hover{
+    background-color: rgb(4, 152, 250);
+}
+
+
+.titulo_img{
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: black; 
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 16px;
+    transition: .4s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+  .titulo_img:hover {
+    box-shadow: inset 300px 0 0 0 #ffffff;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+
+.txt{
+    color: black;
+    text-align: center;
+}
+
+.img_clase{
+    margin-left: 20px;
+}
+.img_clase-uno{
+    margin-left: 80px;
+}
+
+.img_clase-dos{
+    margin-left: 80px;
+}
+
+
+.footer{
+    background-color: rgb(250, 114, 3);
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+
+
+
+
+
